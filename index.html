@@ -1,17 +1,92 @@
 <!DOCTYPE html>
-<html>
-    
-    <body id="page-top" class="index">
-        <section  name="home" id="home" style="margin-top:40px">
-          <div class="container">
-	    <div class="row justify-content-start">
-                <div align="left" class="col-md-4">
-                        <img id="mobile-img" src="logo-2.png" alt="">
-                </div>
-		</div>
-            </div>
-        </section>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holdea</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #333;
+            padding: 10px 20px;
+            color: white;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .menu {
+            display: flex;
+        }
+        .menu a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        .menu a:hover {
+            background-color: #575757;
+        }
+        .content {
+            padding: 20px;
+        }
+        .box {
+            background-color: #f4f4f4;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .box:hover {
+            background-color: #e2e2e2;
+        }
+        .box-content {
+            display: none;
+            padding: 10px;
+            border-top: 1px solid #ddd;
+            background-color: #fafafa;
+        }
+    </style>
+    <script>
+        function toggleBoxContent(event) {
+            const box = event.currentTarget;
+            const content = box.querySelector('.box-content');
+            if (content.style.display === 'block') {
+                content.style.display = 'none';
+            } else {
+                content.style.display = 'block';
+            }
+        }
+    </script>
+</head>
+<body>
 
-	<br>
-	</body>
+    <div class="header">
+        <div class="logo"><img src="logo-2.png"></div>
+        <div class="menu">
+            <a href="#">0</a>
+            <a href="#">1</a>
+            <a href="#">2</a>
+            <a href="#">3</a>
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="box" onclick="toggleBoxContent(event)">
+            <div class="box-header">Our world is made of logic.</div>
+            <div class="box-content">
+                <p>Both in exploring nature and creating society...</p>
+            </div>
+        </div>
+    </div>
+
+</body>
 </html>
