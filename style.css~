@@ -1,5 +1,5 @@
         body {
-            font-family: lucida-console;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
             box-sizing: border-box;
@@ -9,6 +9,21 @@
             align-items: center;
             justify-content: space-between;
             color: white;
+        }
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .menu {
+            display: flex;
+        }
+        .menu a {
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        .menu a:hover {
+            background-color: #575757;
         }
         .content {
             padding: 20px;
