@@ -11,11 +11,7 @@
             display: flex;
             height: 100vh;
         }
-        .logo {
-            max-width: 20%;
-            max-height: 20%;
-        }
-        .title {
+        .h1 {
 	    font-family: lucida-console;
             font-size: 4em;
             margin-bottom: 5px;
@@ -30,29 +26,7 @@
         .pdf-link:hover {
             text-decoration: underline;
         }
-        .header {
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            color: white;
-        }
-        .content {
-            padding: 20px;
-        }
-        .box {
-            background-color: #f4f4f4;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            margin-bottom: 10px;
-            padding: 10px;
-            cursor: pointer;
-        }
-        .box:hover {
-            background-color: #e2e2e2;
-        }
-        .box-content {
-            display: none;
-            padding: 10px;
-            border-top: 1px solid #ddd;
-            background-color: #fafafa;
-        }
+	.img {
+	    max-height: 10%;
+	    max-width: 10%;
+	}
