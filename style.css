@@ -3,7 +3,7 @@
 	    flex-direction: column;
             justify-content: center;
             align-items: center;
-	    font-family: "Lucida Console";
+	    font-family: 'Lucida Console';
 	    text-align: center;
             margin: 0;
             padding: 0;
@@ -12,12 +12,12 @@
             height: 100vh;
         }
         .h1 {
-	    font-family: "Lucida Console";
+	    font-family: 'Lucida Console';
             font-size: 4em;
             margin-bottom: 5px;
         }
         .pdf-link {
-	    font-family: "Lucida Console";
+	    font-family: 'Lucida Console';
             font-size: 2em;
             color: #007bff;
             text-decoration: none;
