@@ -12,19 +12,20 @@
             height: 100vh;
         }
         .logo {
-            max-width: 50%;
-            max-height: 50%;
+            max-width: 20%;
+            max-height: 20%;
         }
         .title {
+	    font-family: lucida-console;
             font-size: 4em;
-            margin-bottom: 20px;
-	    margin-bottom: 20px;
+            margin-bottom: 5px;
         }
         .pdf-link {
+	    font-family: lucida-console;
             font-size: 2em;
             color: #007bff;
             text-decoration: none;
-	    margin-bottom: 20px;
+	    margin-bottom: 5px;
         }
         .pdf-link:hover {
             text-decoration: underline;
